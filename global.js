@@ -36,7 +36,7 @@ console.log("I'm learning" + "a bit" + "of JavaScript" + "at Kenzie");
 // The expression should represent: 5 is less than 10 and 8 is greater than 5
 // This should print true
 
-console.log("5 < 10" !== "8 > 5")
+console.log("5 < 10" != "8 > 5");
 
 // 9.) Add parenthesis to the following statement, the result should be 1
 console.log(3 * 3 + 1 / (20 / 2) == 1); // This should log true
