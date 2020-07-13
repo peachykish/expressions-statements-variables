@@ -7,11 +7,11 @@ console.log(4 + 5);
 
 //1.) Log an expression that evaluates to the sum of two integers
 // your code here
-console.log("1 + 2");
+console.log(1 + 2);
 
 // 2.) log an expression that evaluates to the difference of two integers
 // your code here
-console.log("2 - 1");
+console.log(2 - 1);
 
 // 3.) Log an expression that concatenates the two strings "I'm writing" and "my first JavaScript code"
 // your code here
@@ -19,15 +19,15 @@ console.log("I'm writing" + "my first JavaScript code");
 
 // 4.) Log an expression that evaluates to true or false using two numbers that are greater or less than eachother
 // your code here
-console.log("12 > 15") //returns false;
+console.log(12 > 15) //returns false;
 
 // 5.) Log an expression that uses modulo, with a result of 4
 // your code here
-console.log("answer 5");
+console.log(25 % 7);
 
 // 6.) Create two different strings and compare them, logging the result.
 // It should be false!
-console.log("answer 6");
+console.log("10" == "4");
 
 // 7.) Concatenate 4 different strings to form the sentence "I'm learning a bit of JavaScript at Kenzie"
 console.log("I'm learning" + "a bit" + "of JavaScript" + "at Kenzie");
@@ -39,4 +39,4 @@ console.log("I'm learning" + "a bit" + "of JavaScript" + "at Kenzie");
 console.log("5 < 10" != "8 > 5");
 
 // 9.) Add parenthesis to the following statement, the result should be 1
-console.log(3 * 3 + 1 / (20 / 2) == 1); // This should log true
+console.log(((3 * 3) + 1) / (20 / 2) == 1); // This should log true
